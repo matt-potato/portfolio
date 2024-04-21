@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Chriest Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section id="hero" class="dark-space">
+        <div class="containment-unit">
+            <h1>
+                Hey there! I'm Matt and I<br />build <strong>{Verb}</strong><br />Websites.
+            </h1>
+        </div>
+    </section>
+    <section id="work" class="planet-purple">
+        <div class="containment-unit">
+            <h2>Work</h2>
+            <div class="swiper work-wrap">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://www.sah.org">
+                            <img src="images/logo-sah.svg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://www.phikappaphi.org">
+                            <img src="images/logo-pkp.svg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://www.danatech.org">
+                            <img src="images/logo-dana.svg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://www.minnesotanonprofits.org/">
+                            <img src="images/logo-mcn.svg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://www.mnbudgetproject.org/">
+                            <img src="images/logo-mbp.svg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide work-planet">
+                        <a target="_blank" href="https://clasleaders.org/">
+                            <img src="images/logo-clas.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="dark-space">
+        <div class="containment-unit">
+            <h2>About</h2>
+            <div class="about-me">
+                <div class="head-shot">
+                    <img src="images/head-shot.jpg" alt="">
+                </div>
+                <div>
+                    <p>I began my journey back during the turn of the century when my punk-rock band needed a website hosted on GeoCities to promote shows. When building websites was called "web design" and everything was built using fixed-width tables, images for animated links, and when Ask Jeeves was used over Google.
+                    </p>
+                    <p>I still continue my journey today, always learning and trying my best to please clients by being detail oriented and focused on making the best quailty product that I possibly can with my forever growing knowledge and expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="planet-purple">
+        <div class="containment-unit">
+            <h2>Skills</h2>
+            <div class="skills-wrap">
+                <div class="skill-icon sf">
+                    <img src="images/icon-sitefinity.svg" alt="">
+                    <h3>Sitefinity</h3>
+                </div>
+                <div class="skill-icon css">
+                    <img src="images/icon-css.svg" alt="">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-icon html5">
+                    <img src="images/icon-html.svg" alt="">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-icon bs">
+                    <img src="images/icon-bootstrap.svg" alt="">
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill-icon mvc">
+                    <img src="images/icon-mvc.svg" alt="">
+                    <h3>ASP.NET MVC</h3>
+                </div>
+                <div class="skill-icon figma">
+                    <img src="images/icon-figma.svg" alt="">
+                    <h3>Figma</h3>
+                </div>
+                <div class="skill-icon js">
+                    <img src="images/icon-js.svg" alt="">
+                    <h3>Javascript</h3>
+                </div>
+                <div class="skill-icon ps">
+                    <img src="images/icon-photoshop.svg" alt="">
+                    <h3>Photoshop</h3>
+                </div>
+                <div class="skill-icon git">
+                    <img src="images/icon-git.svg" alt="">
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-icon wp">
+                    <img src="images/icon-wp.svg" alt="">
+                    <h3>Wordpress</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="outer-space-orange">
+        <div class="containment-unit">
+            <h2>Contact</h2>
+            <form action="https://formsubmit.co/matt.chriest@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Message" rows="15"></textarea>
+                <button type="submit">Email Me!</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
