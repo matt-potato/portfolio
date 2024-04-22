@@ -35,8 +35,14 @@ h1 {
     transform: translateY(-50%);
 }
 
-h1 strong {
+h1 span {
+    opacity: 0;
+    transition: .3s;
     color: var(--outer-space-orange);
+}
+
+h1 span.show {
+    opacity: 1;
 }
 
 h2 {
@@ -386,8 +392,12 @@ header ul li {
         font-size: 3rem;
     }
 
-    h1 strong {
-        display: inline-block;
+    h1 span.verb {
+        display: block;
+    }
+
+    h1 br {
+        display: none;
     }
 
     h2 {
