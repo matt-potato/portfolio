@@ -418,6 +418,7 @@ header ul li {
         display: flex;
         flex-wrap: wrap;
         gap: 4rem;
+        aspect-ratio: unset;
     }
 
     .skill-icon {
