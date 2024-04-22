@@ -257,7 +257,7 @@ header ul li {
 
 .skill-icon {
     position: absolute;
-    transition: .3s;
+    transition: .5s;
     border-radius: 50%;
     aspect-ratio: 1;
 }
@@ -274,7 +274,7 @@ header ul li {
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: .3s;
+    transition: .5s;
 }
 
 .skill-icon:hover h3 {
@@ -343,7 +343,14 @@ header ul li {
     max-width: 100%;
     padding: 1.5rem 1rem;
     margin-bottom: 2rem;
-    border: none;
+    border: 5px solid transparent;
+    border-radius: 0;
+    transition: border .3s;
+}
+
+#contact input:focus, #contact textarea:focus-visible {
+    border: 5px solid var(--planet-purple);
+    outline: none;
 }
 
 #contact ::-webkit-input-placeholder {
@@ -360,7 +367,15 @@ header ul li {
     margin: 0 auto;
     color: #FFF;
     background-color: transparent;
+    box-shadow: inset 0 0 0 0 var(--planet-purple);
     border: 3px solid #FFF;
+    transition: .5s;
+}
+
+#contact button:hover {
+    color: #FFF;
+    border-color: transparent;
+    box-shadow: inset 0 83px 0 0 var(--planet-purple);
 }
 
 /* responsive */
