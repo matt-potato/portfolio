@@ -1,13 +1,17 @@
 // Hero Verbiage
+const heading = document.querySelector('h1');
 const verbElement = document.querySelector('.verb');
 const websites = document.querySelector('.websites');
-const verbArray = ['Responsive', 'Impactful', 'Accessible', 'Engaging'];
+const breakTag = document.querySelector('.break');
+const verbArray = ['Responsive', 'Impactful', 'Accessible', 'Engaging', 'Websites.'];
 let verbs = 0;
 
 function transitionVerb() {
-  setTimeout(function() { 
-    verbElement.classList.remove('show');
-  }, 1000);
+  setTimeout(function() {
+    if(verbs < verbArray.length) {
+      verbElement.classList.remove('show');
+    }
+  }, 1200);
   verbElement.classList.add('show');
 }
 
@@ -16,15 +20,13 @@ function switchVerb() {
     verbElement.textContent = verbArray[verbs++];
     transitionVerb();
   }
-  else {
-    verbs = 0;
-    verbElement.textContent = verbArray[verbs++];
-    transitionVerb();
+  if(verbs === verbArray.length){
+    websites.classList.add('hide');
   }
 }
 
 switchVerb();
-setInterval(switchVerb, 2000);
+setInterval(switchVerb, 1500);
 
 // Work Carousel
 let swiper = new Swiper(".work-wrap", {

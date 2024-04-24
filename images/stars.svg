@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1416.4753"
+   height="881.89893"
+   viewBox="0 0 1416.4753 881.89893"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="stars.svg"
+   inkscape:export-filename="stars.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview750"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="424.26407"
+     inkscape:cy="656.19509"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs745" />
+   <style>
+   circle:nth-child(3n + 1) {
+      animation: fade 5s infinite;
+   }
+   @keyframes fade {
+      0% {
+         opacity: 0;
+      }
+      50% {
+         opacity: 1;
+      }
+      100% {
+         opacity: 0;
+      }
+   }
+</style>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-129.56192,-126.29552)">
+    <rect
+       style="display:none;fill:#000000"
+       id="rect302"
+       width="1508"
+       height="923"
+       x="89.56192"
+       y="119.29552" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3"
+       cx="189.80989"
+       cy="204.27518"
+       r="1.3725582"
+       inkscape:label="star1" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9"
+       cx="1237.5619"
+       cy="188.79553"
+       r="1.3725582"
+       inkscape:label="star30" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-29"
+       cx="1484.5619"
+       cy="641.29553"
+       r="1.3725582"
+       inkscape:label="star29" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-29-8"
+       cx="1289.5619"
+       cy="940.29553"
+       r="1.3725582"
+       inkscape:label="star28" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-29-8-0-2"
+       cx="1552.5619"
+       cy="453.29553"
+       r="1.3725582"
+       inkscape:label="star27" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6"
+       cx="1457.5619"
+       cy="952.79553"
+       r="1.3725582"
+       inkscape:label="star26" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7"
+       cx="1345.062"
+       cy="785.79553"
+       r="1.3725582"
+       inkscape:label="star25" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0"
+       cx="1358.562"
+       cy="484.29553"
+       r="1.3725582"
+       inkscape:label="star24" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3-0-3"
+       cx="1221.286"
+       cy="603.2926"
+       r="1.3725582"
+       inkscape:label="star23" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1"
+       cx="1420.5619"
+       cy="272.79553"
+       r="1.3725582"
+       inkscape:label="star22" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-29-8-0"
+       cx="1262.5619"
+       cy="393.29553"
+       r="1.3725582"
+       inkscape:label="star21" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7"
+       cx="198.06192"
+       cy="754.79553"
+       r="1.3725582"
+       inkscape:label="star6" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3"
+       cx="345.56195"
+       cy="540.29553"
+       r="1.3725582"
+       inkscape:label="star5" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1"
+       cx="1100.0619"
+       cy="992.29553"
+       r="1.3725582"
+       inkscape:label="star20" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0"
+       cx="1134.5619"
+       cy="781.79553"
+       r="1.3725582"
+       inkscape:label="star19" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6"
+       cx="918.56189"
+       cy="873.79553"
+       r="1.3725582"
+       inkscape:label="star18" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9"
+       cx="952.56195"
+       cy="720.79553"
+       r="1.3725582"
+       inkscape:label="star17" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3"
+       cx="1002.5619"
+       cy="587.79553"
+       r="1.3725582"
+       inkscape:label="star16" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-29-8-0-2-0"
+       cx="973.56189"
+       cy="290.29553"
+       r="1.3725582"
+       inkscape:label="star15" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5"
+       cx="1074.0619"
+       cy="402.79553"
+       r="1.3725582"
+       inkscape:label="star14" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2"
+       cx="359.56192"
+       cy="311.79553"
+       r="1.3725582"
+       inkscape:label="star2" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3-0-3-5"
+       cx="819.69812"
+       cy="182.86404"
+       r="1.3725582"
+       inkscape:label="star13" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3-0"
+       cx="810.06195"
+       cy="407.29553"
+       r="1.3725582"
+       inkscape:label="star12" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3"
+       cx="715.56195"
+       cy="568.79553"
+       r="1.3725582"
+       inkscape:label="star11" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5"
+       cx="672.06195"
+       cy="743.29553"
+       r="1.3725582"
+       inkscape:label="star10" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-34"
+       cx="446.67627"
+       cy="714.41956"
+       r="1.3725582"
+       inkscape:label="star9" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4"
+       cx="553.06195"
+       cy="905.79553"
+       r="1.3725582"
+       inkscape:label="star8" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-2"
+       cx="247.56189"
+       cy="956.29553"
+       r="1.3725582"
+       inkscape:label="star7" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3-0-7"
+       cx="550.56195"
+       cy="446.29553"
+       r="1.3725582"
+       inkscape:label="star4" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0302887"
+       id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-3-3-0-3-5-5"
+       cx="552.4118"
+       cy="248.62498"
+       r="1.3725582"
+       inkscape:label="star3" />
+  </g>
+</svg>
