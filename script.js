@@ -1,9 +1,11 @@
-// Hero Verbiage
+// Hero
+const hero = document.getElementById('hero');
 const heading = document.querySelector('h1');
 const verbElement = document.querySelector('.verb');
 const websites = document.querySelector('.websites');
 const breakTag = document.querySelector('.break');
 const verbArray = ['Responsive', 'Impactful', 'Accessible', 'Engaging', 'Websites.'];
+
 let verbs = 0;
 
 function transitionVerb() {
@@ -28,11 +30,11 @@ function switchVerb() {
 switchVerb();
 setInterval(switchVerb, 1500);
 
-document.querySelector('#hero').addEventListener('mousemove', (e) => {
+hero.addEventListener('mousemove', (e) => {
   const mouseX = e.clientX / window.innerWidth;
   const mouseY = e.clientY / window.innerHeight;
 
-  document.querySelector('#hero').style.backgroundPosition = `${mouseX * 100}% ${mouseY * 50}%`;
+  hero.style.backgroundPosition = `${mouseX * 100}% ${mouseY * 100}%`;
 });
 
 // Work Carousel
