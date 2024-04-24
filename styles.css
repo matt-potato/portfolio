@@ -420,6 +420,10 @@ header ul li {
         padding: 3rem 0;
     }
 
+    #hero {
+        background-size: contain;
+    }
+
     h1 {
         font-size: 3rem;
     }
