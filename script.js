@@ -28,6 +28,13 @@ function switchVerb() {
 switchVerb();
 setInterval(switchVerb, 1500);
 
+document.querySelector('#hero').addEventListener('mousemove', (e) => {
+  const mouseX = e.clientX / window.innerWidth;
+  const mouseY = e.clientY / window.innerHeight;
+
+  document.querySelector('#hero').style.backgroundPosition = `${mouseX * 100}% ${mouseY * 50}%`;
+});
+
 // Work Carousel
 let swiper = new Swiper(".work-wrap", {
     loop: true,

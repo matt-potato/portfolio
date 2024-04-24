@@ -164,7 +164,6 @@ header ul li {
     height: 100vh;
     padding: 0;
     background-image: url(images/stars.svg);
-    background-size: contain;
 }
 
 #hero:after, #about:after {

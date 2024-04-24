@@ -39,7 +39,10 @@
   <defs
      id="defs745" />
    <style>
-   circle:nth-child(3n + 1) {
+   .twinkle {
+      animation: fade 10s infinite;
+   }
+   .twinkle2 {
       animation: fade 5s infinite;
    }
    @keyframes fade {
@@ -67,6 +70,7 @@
        x="89.56192"
        y="119.29552" />
     <circle
+       class="twinkle2"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3"
        cx="189.80989"
@@ -109,6 +113,7 @@
        r="1.3725582"
        inkscape:label="star26" />
     <circle
+       class="twinkle"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3-2-7-4-9-0-1-9-5-3-7"
        cx="1345.062"
@@ -130,6 +135,7 @@
        r="1.3725582"
        inkscape:label="star23" />
     <circle
+       class="twinkle2"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3-2-7-4-9-0-1"
        cx="1420.5619"
@@ -137,6 +143,7 @@
        r="1.3725582"
        inkscape:label="star22" />
     <circle
+       class="twinkle"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3-2-7-4-9-0-1-9-5-29-8-0"
        cx="1262.5619"
@@ -193,6 +200,7 @@
        r="1.3725582"
        inkscape:label="star16" />
     <circle
+       class="twinkle"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3-2-7-4-9-0-1-9-5-29-8-0-2-0"
        cx="973.56189"
@@ -242,6 +250,7 @@
        r="1.3725582"
        inkscape:label="star10" />
     <circle
+       class="twinkle"
        style="fill:#ffffff;stroke-width:0.0302887"
        id="path983-7-3-2-7-4-9-0-1-9-5-3-7-6-1-0-6-5-34"
        cx="446.67627"
