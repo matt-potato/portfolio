@@ -34,7 +34,7 @@ hero.addEventListener('mousemove', (e) => {
   const mouseX = e.clientX / window.innerWidth;
   const mouseY = e.clientY / window.innerHeight;
 
-  hero.style.backgroundPosition = `${mouseX * 100}% ${mouseY * 100}%`;
+  hero.style.backgroundPosition = `${mouseX * 100}% ${mouseY * 150}%`;
 });
 
 // Work Carousel
