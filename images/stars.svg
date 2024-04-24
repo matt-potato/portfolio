@@ -40,7 +40,7 @@
      id="defs745" />
    <style>
    .twinkle {
-      animation: fade 10s infinite;
+      animation: fade 2s infinite;
    }
    .twinkle2 {
       animation: fade 5s infinite;

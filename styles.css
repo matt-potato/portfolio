@@ -131,8 +131,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 100%;
+    height: 20vh;
     aspect-ratio: 1/1;
     background-color: var(--outer-space-orange);
     border-radius: 50%;
@@ -164,6 +163,7 @@ header ul li {
     height: 100vh;
     padding: 0;
     background-image: url(images/stars.svg);
+    background-size: 30%;
 }
 
 #hero:after, #about:after {
@@ -410,10 +410,6 @@ header ul li {
         gap: 1.5rem;
         flex-direction: column;
         align-items: center;
-    }
-
-    .logo {
-        width: 100px;
     }
 
     section {
