@@ -177,7 +177,7 @@ header ul li {
     z-index: 1;
 }
 
-.asteroid, .moon {
+.asteroid, .moon, .planet {
     position: absolute;
 }
 
@@ -185,6 +185,13 @@ header ul li {
     width: 5vw;
     top: 25%;
     right: 5%;
+    animation: spin infinite 60s;
+}
+
+.planet {
+    width: 10vw;
+    left: 5%;
+    bottom: 15%;
     animation: bounce infinite linear 5s;
 }
 
@@ -198,7 +205,7 @@ header ul li {
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(-5vh);
     }
     100% {
         transform: translateY(0px);
@@ -451,6 +458,13 @@ header ul li {
     .moon.bounce {
         width: 10vw;
         top: 30%
+    }
+
+    .planet {
+        width: 20vw;
+        left: 5%;
+        bottom: 5%;
+        animation: bounce infinite linear 5s;
     }
 
     h1 {
