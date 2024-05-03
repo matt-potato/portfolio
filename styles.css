@@ -161,6 +161,7 @@ header ul li {
 
 #hero {
     display: flex;
+    height: 100svh;
     height: 100vh;
     padding: 0;
     background-image: url(images/stars.svg);
