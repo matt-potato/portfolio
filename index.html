@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css?v1.1">
 </head>
 <body>
@@ -25,7 +26,7 @@
         </ul>
     </header>
     <section id="hero" class="dark-space">
-        <img class="moon bounce" src="images/astroid.svg" alt="">
+        <img class="moon spin" src="images/astroid.svg" alt="">
         <img class="planet" src="images/purple-planet.svg" alt="">
         <div class="containment-unit">
             <h1>
@@ -140,12 +141,22 @@
     <section id="contact" class="outer-space-orange">
         <div class="containment-unit">
             <h2>Contact</h2>
-            <form action="https://formsubmit.co/matt.chriest@gmail.com" method="POST">
+            <div class="contact-wrap">
+                <a class="email contact-planet" href="mailto:matt.chriest@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h4>Email</h4>
+                </a>
+                <a class="linkedin contact-planet" href="https://linkedin.com/in/matt-chriest" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                </a>
+            </div>
+            <!--<form action="https://formsubmit.co/matt.chriest@gmail.com" method="POST">
                 <input type="text" name="name" placeholder="Name">
                 <input type="email" name="email" placeholder="Email">
                 <textarea name="message" placeholder="Message" rows="15"></textarea>
                 <button type="submit">Email Me!</button>
-            </form>
+            </form>-->
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

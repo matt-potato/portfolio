@@ -2,6 +2,7 @@
     --dark-space: #0C0716;
     --planet-purple: #462940;
     --outer-space-orange: #F5B05D;
+    --shadow-hover: 0 1rem 1rem rgba(0,0,0,.4);
 }
 
 * {
@@ -181,23 +182,27 @@ header ul li {
     position: absolute;
 }
 
-.moon.bounce {
+.moon.spin {
     width: 5vw;
     top: 25%;
     right: 5%;
-    animation: spin infinite 60s;
+    animation: spin infinite 30s;
 }
 
 .planet {
     width: 10vw;
     left: 5%;
     bottom: 15%;
-    animation: bounce infinite linear 15s;
+    animation: bounce infinite linear 8s;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes bounce {
@@ -256,7 +261,7 @@ header ul li {
 
 .work-planet:hover {
     transform: translateY(-1rem);
-    box-shadow: 0 2rem 1rem rgba(0,0,0,.5);
+    box-shadow: var(--shadow-hover)
 }
 
 .work-planet a {
@@ -313,12 +318,13 @@ header ul li {
 
 .skill-icon:hover {
     transform: scale(1.5);
-    box-shadow: 0 2rem 1rem rgba(0,0,0,.5);
+    box-shadow: var(--shadow-hover);
     background-color: var(--outer-space-orange);
     z-index: 999;
 }
 
 .skill-icon h3 {
+    width: max-content;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -427,6 +433,58 @@ header ul li {
     box-shadow: inset 0 83px 0 0 var(--planet-purple);
 }
 
+.contact-wrap {
+    position: relative;
+    width: 450px;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px dotted #FFF;
+}
+
+.contact-wrap:hover .contact-planet {
+    animation-play-state: paused;
+}
+
+.contact-planet {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--planet-purple);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: orbit 16s linear infinite;
+    transition: .3s;
+}
+
+.contact-planet:nth-child(2) {
+    animation-delay: -8s;
+}
+
+.contact-planet i {
+    font-size: 5rem;
+}
+
+.contact-planet:hover {
+    margin-top:  -1rem;
+    box-shadow: var(--shadow-hover);
+}
+
+@keyframes orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(100%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(100%) rotate(-360deg);
+    }
+}
+
 /* responsive */
 
 @media screen and (max-width:1920px) {
@@ -452,7 +510,8 @@ header ul li {
     }
 
     #hero {
-        background-size: contain;
+        background-size: 150%;
+        background-position: 0 0;
     }
 
     .moon.bounce {
@@ -539,5 +598,28 @@ header ul li {
 
     #contact input, #contact textarea {
         font-size: 1rem;
+    }
+
+    .contact-wrap {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        position: relative;
+        width: auto;
+        aspect-ratio: 0;
+        margin: 0 auto;
+        border-radius: 0;
+        border: none;
+    }
+
+    .contact-wrap .contact-planet {
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        position: relative;
+        animation: none;
+        transform: none;
+        top: auto;
+        left: auto;
     }
 }
